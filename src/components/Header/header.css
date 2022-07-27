@@ -110,12 +110,24 @@ section > h2{
     margin-bottom: 2rem;
   }
   }
-  @media screen and (max-height: 805px){
+  @media screen and (max-height: 800px){
     .me{
       background-color: linear-gradient(var (--color-primary), transparent);
      
       position: absolute;
       
+      margin-top: 2rem;
+      border-radius: 12rem 12rem 0 0;
+      overflow: hidden;
+    }
+  }
+  @media screen and (max-height: 770px){
+    .me{
+      background-color: linear-gradient(var (--color-primary), transparent);
+      height: 13rem;
+      width: 14rem;
+      margin-left: 45px;
+      position: absolute;    
       margin-top: 2rem;
       border-radius: 12rem 12rem 0 0;
       overflow: hidden;

@@ -147,3 +147,18 @@
     margin-left: 20px;
   }
 }
+@media screen and (max-height: 1024px) {
+  .experience__container {
+    width: 100%;
+
+    gap: 1rem;
+  }
+
+  .experience__container > div {
+    width: 60%;
+    padding: 1rem 1rem;
+  }
+  .experience__content {
+    margin-left: 0;
+  }
+}

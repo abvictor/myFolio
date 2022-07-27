@@ -102,3 +102,25 @@
     margin-left: 0;
   }
 }
+@media screen and (max-height: 805px) {
+  .experience__container {
+    width: 100%;
+
+    gap: 1rem;
+  }
+
+  .experience__container > div {
+    width: 60%;
+    padding: 1rem 1rem;
+  }
+  .experience__content {
+    margin-left: 0;
+  }
+  .experience__details {
+    margin-left: 20px;
+  }
+  h2,
+  h5 {
+    margin-left: 20px;
+  }
+}

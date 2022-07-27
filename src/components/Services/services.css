@@ -95,3 +95,13 @@
     padding: 2rem 1rem;
   }
 }
+@media screen and (max-height: 805px) {
+  .service {
+    width: 100%;
+    margin-left: 15px;
+  }
+  h2,
+  h5 {
+    margin-left: 20px;
+  }
+}

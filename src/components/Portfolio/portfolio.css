@@ -64,3 +64,14 @@
     gap: 1.5rem;
   }
 }
+
+@media screen and (max-height: 805px) {
+  .portfolio__container {
+    width: 90%;
+    margin-left: 20px;
+  }
+  h2,
+  h5 {
+    margin-left: 15px;
+  }
+}

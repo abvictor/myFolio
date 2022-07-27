@@ -90,11 +90,13 @@ section > h2{
 }
 
 @media screen and (max-width: 375px){
+ 
+
+ 
   .container{
     width: var(--container-width-sm);
   }
   .me{
-    
     background-color: linear-gradient(var (--color-primary), transparent);
     width: 13.5rem;
     height: 14em;
@@ -103,10 +105,21 @@ section > h2{
     margin-top: 2rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    
   }
   section > h2{
     margin-bottom: 2rem;
   }
   }
+  @media screen and (max-height: 805px){
+    .me{
+      background-color: linear-gradient(var (--color-primary), transparent);
+     
+      position: absolute;
+      
+      margin-top: 2rem;
+      border-radius: 12rem 12rem 0 0;
+      overflow: hidden;
+    }
+  }
   
+
